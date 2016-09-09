@@ -1,0 +1,108 @@
+* {
+  list-style: none;
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif; }
+
+body {
+  background: #18bc9c; }
+  body header {
+    background: #2c3e50;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 90px;
+    z-index: 1000;
+    width: 100%; }
+    body header nav {
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 auto;
+      height: 100%;
+      width: 80%;
+      /*a{
+                align-items: center;
+                display: flex;
+                height: 100%;
+                justify-content: center;
+                color: #FFF;
+                text-transform: uppercase;
+                font-size: 1.3em;
+            }*/ }
+      body header nav .titulo {
+        font-size: 2em;
+        display: -ms-flexbox;
+        display: flex;
+
+        text-transform: uppercase;
+        margin: 0 auto;
+        -ms-flex-align: center;
+            align-items: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  body .panel {
+    position: absolute;
+    margin-top: 140px;
+    width: 100%;
+    z-index: 8;
+    height: calc(100vh - 140px); }
+    body .panel h2 {
+      text-transform: uppercase;
+      margin: .5em 0;
+      font-weight: bold;
+      text-align: center;
+      font-size: 1.8em; }
+    body .panel main {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-align: center;
+          align-items: center;
+      width: 80%;
+      margin: 0 auto;
+      background: #128f76;
+      border-radius: 8px;
+      z-index: 10;
+      margin-top: .5em; }
+      body .panel main .links {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        width: 80%;
+        margin: .5em 0; }
+        body .panel main .links article {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-direction: column;
+              flex-direction: column;
+          font-size: 1.3em;
+          margin: 0 auto; }
+          body .panel main .links article .titulo {
+            font-family: 'Lato';
+            text-align: center;
+            font-size: 1.6em;
+            margin: .3em; }
+          body .panel main .links article a {
+            text-align: center;
+            margin: .3em; }
+             body .panel main .links article a:hover{
+              color:#444;
+             }
+    body .panel footer {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center;
+      background: #212121;
+      margin-top: 30px;
+      width: 100%;
+      height: 50px; }
+      body .panel footer p {
+        text-align: center;
+        font-weight: lighter; }
