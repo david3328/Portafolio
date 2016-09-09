@@ -60,6 +60,7 @@ div.cursos {
     div.cursos div.contenido div.item {
       display: -ms-flexbox;
       display: flex;
+      margin: 30px;
       -ms-flex-align: center;
           align-items: center;
       width: 250px;
