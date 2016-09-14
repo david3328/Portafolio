@@ -145,3 +145,21 @@ div.auspicios div.contenido div.texto {
 
 div.item_enlace a:hover div.item {
   transform: tranlateY(-125px); }
+
+@media screen and (max-width: 601px) {
+  div.cursos div.titulo h2, div.trabajos div.titulo h2, div.auspicios div.titulo h2 {
+    font-size: 3em; }
+  div.trabajos div.contenido h5, div.auspicios div.contenido h5 {
+    font-size: 1.5rem; }
+  div.auspicios div.contenido span {
+    width: 60%;
+    margin: 10px auto;
+    overflow: hidden; }
+    div.auspicios div.contenido span img {
+      width: 30px; }
+    div.auspicios div.contenido span a {
+      font-size: 2rem; }
+  div.auspicios div.contenido div.texto p {
+    width: 70%;
+    font-size: 20px;
+    text-align: left; } }
