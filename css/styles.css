@@ -149,11 +149,14 @@ div.item_enlace a:hover div.item {
 @media screen and (max-width: 601px) {
   div.cursos div.titulo h2, div.trabajos div.titulo h2, div.auspicios div.titulo h2 {
     font-size: 3em; }
+  div.cursos div.contenido div.item div.item_enlace a, div.trabajos div.contenido div.item div.item_enlace a, div.auspicios div.contenido div.item div.item_enlace a {
+    font-size: 14px; }
   div.trabajos div.contenido h5, div.auspicios div.contenido h5 {
     font-size: 1.5rem; }
   div.auspicios div.contenido span {
-    width: 60%;
+    width: 70%;
     margin: 10px auto;
+    padding: 10px;
     overflow: hidden; }
     div.auspicios div.contenido span img {
       width: 30px; }
