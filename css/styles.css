@@ -147,6 +147,8 @@ div.item_enlace a:hover div.item {
   transform: tranlateY(-125px); }
 
 @media screen and (max-width: 601px) {
+  div.cabecera div.nombre {
+    margin: auto; }
   div.cursos div.titulo h2, div.trabajos div.titulo h2, div.auspicios div.titulo h2 {
     font-size: 3em; }
   div.cursos div.contenido div.item div.item_enlace a, div.trabajos div.contenido div.item div.item_enlace a, div.auspicios div.contenido div.item div.item_enlace a {
